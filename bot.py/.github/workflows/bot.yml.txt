@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Устанавливаем зависимости
-        run: pip install -r requirements.txt || true
+        run: pip install -r requirements.txt
 
       - name: Запускаем бота
         run: python bot.py
