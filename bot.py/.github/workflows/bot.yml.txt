@@ -1,7 +1,6 @@
 name: Запуск бота
 
 on:
-  on:
   push:
     branches:
       - main
