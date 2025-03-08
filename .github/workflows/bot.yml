@@ -20,4 +20,4 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Запускаем бота
-        run: python bot.py
+        run: python fondelete_bot/bot.py
